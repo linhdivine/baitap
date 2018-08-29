@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+  margin: 0 -20px;
+}
+.header-admin {
+  height: 80px;
+  width: 100%;
+  background-color: #00BCD4;
+   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+
+}
+.navigation {
+  margin-top: 15px;
+  border: none;
+      background-color:transparent;
+     
+}
+.navbar-nav {
+  margin: 0;padding: 0;
+  background: none;
+  display: block;
+  width: 800px;
+}
+.navbar-nav li {
+}
+.navbar-nav li a {
+  color: #FFF;
+  font-weight: 500;
+  display: block;
+  text-transform: capitalize;
+}
+.navbar-nav li a:focus {
+  background: none;
+  border: none;
+}
+.navbar-nav li a:hover {
+  background: none;
+  color: #FFF;
+}
+.navbar-form {
+    width: 270px;
+    display: block;
+    float: left;
+}
+.btn-default {
+  padding: 0;
+  font-size: 24px;
+  margin-left: 10px;
+  background: none;
+  border: none;color: #fff;
+} 
+.btn-default.focus, .btn-default:hover, .btn-default:active {
+  background: none;
+}
+.profile {
+  float: right;
+  list-style: none;
+  margin-top: 10px;
+}
+.profile li {
+  margin: 0 2.5px;
+  float: left;
+}
+.profile li a{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+}
+.dashoard-setting {
+  display: block;
+ box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.1)
+}
+.title-menu {
+  margin: 10px 0;
+}
+.title-menu .link {
+  display: inline-block;
+  font-size: 18px;
+  color: #F44336;
+  font-weight: 500;
+  padding: 10px 36px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 2px solid #F44336;
+  
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+}
+.title-menu .link:hover {
+  color: #FFF;
+  text-align: center;
+  border-color: transparent;
+  text-decoration: none;
+  background-color: rgba(244,67,54,0.9);
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 1s;
+}
+.menu-dashoard {
+  list-style: none;
+ 
+}
+.menu-dashoard li {
+  margin-bottom: 15px;
+  display: list-item;
+}
+.menu-dashoard li a {
+  color: #333;
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+} 
+.menu-dashoard li span {
+  font-size: 18px;
+}
+.dashoard-views {
+  padding: 15px 10px 15px 30px;
+  height: 100%;
+  background: #e4e4e4;
+}
+#footer-wp {
+  padding: 15px 0;
+  background-color: #00BCD4;
+}
+.wp-inner {
+  color: #FFF;
+  text-align: center;
+}
+.content {
+  background-color: #FFF;
+}
+.select th {
+  text-transform: uppercase;
+}
+.select th, td {
+     border-right: 1px solid #e4e4e4;
+}
+.dashoard-views .title {
+  text-transform: capitalize;
+}
+.table .lart-child {
+  border: none;
+}
+.column {
+  width: 100%;
+  padding: 45px;
+}
+
+.title-add {
+  margin-bottom: 40px;
+}
+.title-add h2 {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#posts {
+  padding: 0 20px;
+}
+.title-post {
+  width: 500px;
+  display: block;
+  margin-bottom: 20px;
+}
+.input-post {
+  width: 100%;
+}
+.descript {
+  width: 600px;
+  margin-bottom: 20px;
+}
+.urlimg {
+  width: 400px;
+  margin-bottom: 25px;
+}
+#loaitin {
+  width: 350px;
+  margin-bottom: 30px;
+}
+.descript .tomtat {
+  height: 120px;
+}
+.row-dashbord::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.col-md-4:first-child {
+  padding-left: 0;
+}
+.col-md-4:last-child {
+ padding-right: 0; 
+}
+.block:first-child {
+  margin-left: 0;
+}
+.block:last-child {
+  margin-right: 0;
+}
+.block {
+  padding: 0 10px;
+  margin:0 20px;
+}
+.block::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.background-green {
+  background-color: #8bc34a;
+  
+}
+.background-blue {
+  background-color: #00bcd4;
+}
+.background-red {
+  background-color: #e51e62;
+}
+.icont {
+  width: 20%;
+  float: left;
+}
+.icont span {
+  display: block;
+  margin: auto;
+  width: 100%;
+  color: #FFF;
+  font-size: 52px;
+}
+.text {
+  width: 70%;
+  float: left;
+  margin-left: 15px;
+}
+.text h5{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text span {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.rows::after {
+  content: "";
+  display: table;
+  clear: both;
+}
